@@ -3,8 +3,8 @@ import pytesseract
 from PIL import Image
 import cv2
 import numpy as np
-from pydrive.auth import GoogleAuth
-from pydrive.drive import GoogleDrive
+from pydrive2.auth import GoogleAuth
+from pydrive2.drive import GoogleDrive
 import os
 
 st.set_page_config(layout="wide")  # Enables wide mode
