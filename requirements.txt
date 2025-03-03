@@ -4,7 +4,8 @@ opencv-python-headless
 numpy
 pydrive2
 pytesseract
-tesseract-ocr
+tesseract
+
 
 
 
