@@ -7,6 +7,8 @@ from pydrive2.auth import GoogleAuth
 from pydrive2.drive import GoogleDrive
 import os
 
+pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+
 st.set_page_config(layout="wide")  # Enables wide mode
 
 # Initialize Google Drive Authentication
